@@ -1,0 +1,14 @@
+//Riya Jaison 9553 TE Comps A
+//Exp 03 Postlab
+
+1. **Time Complexity of the Water Jug Problem**:
+   - The time complexity of the Water Jug problem is determined by the number of possible states that need to be explored to find the solution.
+   - In the general case, if we have two jugs with capacities \(m\) and \(n\), the total number of possible states is proportional to the product of their capacities, \(O(m \times n)\).
+   - This is because each jug can hold a certain amount of water ranging from 0 to its capacity, resulting in \(m \times n\) possible combinations of water levels in both jugs.
+   - Algorithms for solving the Water Jug problem typically involve exploring these states until a solution is found, which contributes to the overall time complexity.
+
+2. **Why DFS is not Used for Solving the Water Jug Problem**:
+   - Depth-First Search (DFS) explores a path as far as possible before backtracking, which can lead to inefficient exploration of the search space.
+   - In the context of the Water Jug problem, DFS might traverse deep into the search space before finding a solution, potentially missing shorter paths.
+   - Since the goal of the Water Jug problem is often to find the shortest sequence of actions to reach the desired state (e.g., a specific amount of water in one of the jugs), DFS may not be suitable as it does not guarantee finding the shortest path.
+   - Instead, algorithms like Breadth-First Search (BFS) or other optimal search strategies are preferred, as they systematically explore the search space and guarantee finding the shortest path to the solution.
