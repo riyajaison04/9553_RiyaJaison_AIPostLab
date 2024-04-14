@@ -1,0 +1,11 @@
+1. Difference between A* and AO* Algorithm:
+   - A* (A-star) and AO* (Anytime A-star) are both variants of the A* algorithm used for finding the shortest path in a graph or search space.
+   - A* is designed to find the optimal solution by using a heuristic function to guide the search towards the goal node efficiently.
+   - AO* is an anytime algorithm, meaning it can return an approximate solution at any time, which may improve over time as more computational resources are allocated.
+   - The main difference between A* and AO* is that A* focuses on finding the optimal solution as quickly as possible, while AO* balances between finding good solutions and optimizing the solution over time.
+   - AO* can be seen as a generalization of A* that provides a trade-off between solution quality and computation time.
+
+2. Why AO* Algorithm Only Works When Heuristic Values are Underestimated:
+   - AO* algorithm relies on the property of monotonicity, which means that the heuristic function must consistently underestimate the true cost of reaching the goal from any given state.
+   - If the heuristic function overestimates the cost, the algorithm may not converge to the optimal solution, and the anytime property of AO* may not hold.
+   - When the heuristic values are underestimated, AO* can progressively improve the quality of the solution over time, providing better solutions as more computational resources are allocated.
