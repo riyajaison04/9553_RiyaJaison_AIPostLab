@@ -1,0 +1,20 @@
+//Riya Jaison 9553 TE Comps A
+//Experiment 01 Postlab
+ 1.Easiest Trick to Win Tic Tac Toe:
+    The easiest trick to win Tic Tac Toe is to go first and place your mark in the center square. This significantly increases your chances of winning or forcing a draw if both
+    players play optimally. If you are the second player, try to block your opponent from creating a winning line while creating opportunities for your own.
+
+    2.Algorithm to Win 5x5 Tic Tac Toe:
+    Winning a 5x5 Tic Tac Toe involves adapting strategies similar to the standard 3x3 version. However, due to the increased size, the game becomes more complex. A common approach     is to focus on creating patterns such as a row, column, or diagonal of four marks. Controlling the center is still crucial. As the size increases, the number of possible     
+    winning patterns also increases, and players may need to implement more sophisticated algorithms like Minimax to analyze potential moves.
+
+    3.Never Lose at Tic-Tac-Toe:
+    In standard Tic Tac Toe (3x3 grid), it is possible to force a draw or win every game if both players play optimally. This can be achieved using the Minimax algorithm, which         ensures that you make the best move at each turn. If your opponent makes a mistake or doesn't follow the optimal strategy, you may have the opportunity to win. However, 
+    achieving this outcome requires both players to play perfectly.
+
+    4.Benefits of Tic-Tac-Toe:
+    Tic Tac Toe, while a simple game, offers several benefits:
+    Strategic Thinking: Playing Tic Tac Toe involves anticipating your opponent's moves and planning ahead to secure a win or draw.
+    Pattern Recognition: Recognizing winning patterns and adapting strategies improves pattern recognition skills.
+    Decision Making: Players need to make decisions on each move, considering the current state of the board and potential future outcomes.
+    Learning Algorithms: Developing and understanding algorithms like Minimax can enhance programming and problem-solving skills.
